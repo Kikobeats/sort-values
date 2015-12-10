@@ -2,7 +2,7 @@
   "name": "sort-values",
   "description": "Sort the keys of an object based in the values",
   "homepage": "https://github.com/Kikobeats/sort-values",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "main": "./dist/sort-values.js",
   "authors": [
     {
