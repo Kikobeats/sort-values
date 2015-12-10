@@ -1,0 +1,34 @@
+{
+  "name": "sort-values",
+  "description": "Sort the keys of an object based in the values",
+  "homepage": "https://github.com/Kikobeats/sort-values",
+  "version": "0.0.0",
+  "main": "./dist/sort-values.js",
+  "authors": [
+    {
+      "email": "josefrancisco.verdu@gmail.com",
+      "name": "Kiko Beats",
+      "url": "https://github.com/Kikobeats"
+    }
+  ],
+  "repository": "Kikobeats/sort-values",
+  "bugs": {
+    "url": "https://github.com/Kikobeats/sort-values/issues"
+  },
+  "keywords": [
+    "object",
+    "obj",
+    "objt",
+    "val",
+    "values",
+    "sort"
+  ],
+  "ignore": [
+    "**/.*",
+    "bower_components",
+    "node_modules",
+    "test",
+    "tests"
+  ],
+  "license": "MIT"
+}
