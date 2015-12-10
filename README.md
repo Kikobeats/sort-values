@@ -2,7 +2,6 @@
 
 ![Last version](https://img.shields.io/github/tag/Kikobeats/sort-values.svg?style=flat-square)
 [![Build Status](http://img.shields.io/travis/Kikobeats/sort-values/master.svg?style=flat-square)](https://travis-ci.org/Kikobeats/sort-values)
-[![Coverage Status](http://img.shields.io/coveralls/Kikobeats/sort-values/master.svg?style=flat-square)](https://coveralls.io/r/Kikobeats/sort-values?branch=master)
 [![Dependency status](http://img.shields.io/david/Kikobeats/sort-values.svg?style=flat-square)](https://david-dm.org/Kikobeats/sort-values)
 [![Dev Dependencies Status](http://img.shields.io/david/dev/Kikobeats/sort-values.svg?style=flat-square)](https://david-dm.org/Kikobeats/sort-values#info=devDependencies)
 [![NPM Status](http://img.shields.io/npm/dm/sort-values.svg?style=flat-square)](https://www.npmjs.org/package/sort-values)
