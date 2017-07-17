@@ -22,7 +22,7 @@
     "sort"
   ],
   "dependencies": {
-    "sort-keys": "~1.1.1"
+    "sort-keys": "~2.0.0"
   },
   "devDependencies": {
     "browserify": "latest",
