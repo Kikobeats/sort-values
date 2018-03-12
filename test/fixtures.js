@@ -1,4 +1,4 @@
-module.exports =
+module.exports = {
   es: 1473,
   en: 839,
   et: 2,
@@ -25,3 +25,4 @@ module.exports =
   hu: 1,
   is: 1,
   no: 1
+};
