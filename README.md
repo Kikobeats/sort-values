@@ -50,7 +50,7 @@ sortValues({en: 10, es: 100, it: 50});
 *Required*
 Type: `Object`
 
-##### mode
+#### mode
 
 Type: `String`
 Default: `asc`
