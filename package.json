@@ -25,7 +25,7 @@
     "values"
   ],
   "dependencies": {
-    "sort-keys": "~2.0.0"
+    "sort-keys": "~3.0.0"
   },
   "devDependencies": {
     "mocha": "latest",
