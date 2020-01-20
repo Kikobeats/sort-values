@@ -1,3 +1,16 @@
+## 1.1.0 (2020-01-20)
+
+* build: update dependencies ([37aac9a](https://github.com/Kikobeats/sort-values/commit/37aac9a))
+* Bump sort-keys from 3.0.0 to 4.0.0 ([28449aa](https://github.com/Kikobeats/sort-values/commit/28449aa))
+* Refactor tests ([1deb7ca](https://github.com/Kikobeats/sort-values/commit/1deb7ca))
+* Update .travis.yml ([b3b6e75](https://github.com/Kikobeats/sort-values/commit/b3b6e75))
+* Update README.md ([3cbe3d3](https://github.com/Kikobeats/sort-values/commit/3cbe3d3))
+* Update README.md ([49843d0](https://github.com/Kikobeats/sort-values/commit/49843d0))
+* fix(package): update sort-keys to version 3.0.0 ([d84c77e](https://github.com/Kikobeats/sort-values/commit/d84c77e))
+* docs(readme): add Greenkeeper badge ([a575eaa](https://github.com/Kikobeats/sort-values/commit/a575eaa))
+
+
+
 <a name="1.0.1"></a>
 ## 1.0.1 (2017-07-18)
 
