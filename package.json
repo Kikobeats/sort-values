@@ -29,7 +29,17 @@
   },
   "devDependencies": {
     "mocha": "latest",
-    "should": "latest"
+    "should": "latest",
+    "@commitlint/cli": "latest",
+    "@commitlint/config-conventional": "latest",
+    "ci-publish": "latest",
+    "conventional-github-releaser": "latest",
+    "finepack": "latest",
+    "git-authors-cli": "latest",
+    "husky": "latest",
+    "lint-staged": "latest",
+    "npm-check-updates": "latest",
+    "standard-version": "latest"
   },
   "engines": {
     "node": ">= 0.10.0",
@@ -39,7 +49,31 @@
     "index.js"
   ],
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "contributors": "(git-authors-cli && finepack && git add package.json && git commit -m 'build: contributors' --no-verify) || true",
+    "postrelease": "npm run release:tags && npm run release:github && ci-publish",
+    "prerelease": "npm run update:check && npm run contributors",
+    "release:github": "conventional-github-releaser -p angular",
+    "release:tags": "git push --follow-tags origin HEAD:master",
+    "release": "standard-version -a",
+    "update:check": "ncu -- --error-level 2",
+    "update": "ncu -u"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "package.json": [
+      "finepack"
+    ]
+  }
 }
