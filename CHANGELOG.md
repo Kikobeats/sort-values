@@ -1,3 +1,14 @@
+# Changelog
+
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+### 1.1.1 (2020-10-14)
+
+
+### Bug Fixes
+
+* **package:** update sort-keys to version 3.0.0 ([d84c77e](https://github.com/Kikobeats/sort-values/commit/d84c77eab4acd514d9de073c50e1baf63af0af70))
+
 ## 1.1.0 (2020-01-20)
 
 * build: update dependencies ([37aac9a](https://github.com/Kikobeats/sort-values/commit/37aac9a))
@@ -28,6 +39,3 @@
 * Add devDependencies correctly ([3132119](https://github.com/kikobeats/sort-values/commit/3132119))
 * first commit ([c91c409](https://github.com/kikobeats/sort-values/commit/c91c409))
 * Update README.md ([7ff02fb](https://github.com/kikobeats/sort-values/commit/7ff02fb))
-
-
-
