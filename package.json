@@ -28,8 +28,6 @@
     "sort-keys": "~4.1.0"
   },
   "devDependencies": {
-    "mocha": "latest",
-    "should": "latest",
     "@commitlint/cli": "latest",
     "@commitlint/config-conventional": "latest",
     "ci-publish": "latest",
@@ -38,7 +36,9 @@
     "git-authors-cli": "latest",
     "husky": "latest",
     "lint-staged": "latest",
+    "mocha": "latest",
     "npm-check-updates": "latest",
+    "should": "latest",
     "standard-version": "latest"
   },
   "engines": {
@@ -49,15 +49,15 @@
     "index.js"
   ],
   "scripts": {
-    "test": "mocha",
     "contributors": "(git-authors-cli && finepack && git add package.json && git commit -m 'build: contributors' --no-verify) || true",
     "postrelease": "npm run release:tags && npm run release:github && ci-publish",
     "prerelease": "npm run update:check && npm run contributors",
+    "release": "standard-version -a",
     "release:github": "conventional-github-releaser -p angular",
     "release:tags": "git push --follow-tags origin HEAD:master",
-    "release": "standard-version -a",
-    "update:check": "ncu -- --error-level 2",
-    "update": "ncu -u"
+    "test": "mocha",
+    "update": "ncu -u",
+    "update:check": "ncu -- --error-level 2"
   },
   "license": "MIT",
   "commitlint": {
